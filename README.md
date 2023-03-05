@@ -1,0 +1,2 @@
+# Patika
+Patika ödev repo
