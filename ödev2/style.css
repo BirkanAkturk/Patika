@@ -1,0 +1,82 @@
+* {
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+section {
+    margin-top: 10px;
+    width: 88vw;
+    height: max-content;
+}
+
+
+.first {
+    background-color: #ddd;
+    height: max-content;
+}
+
+form,
+.second {
+    text-align: center;
+    height: fit-content;
+}
+
+.second {
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+
+.second div {
+    float: left;
+    height: 84px;
+    display: block;
+}
+
+.sol {
+    width: 37%;
+    background-color: rgb(126, 229, 218);
+    font-size: 16px;
+}
+
+.sol p {
+    margin-top: 15px;
+}
+
+.orta {
+    width: 25%;
+    background-color: rgb(112, 204, 194);
+    font-size: 13px;
+}
+
+.orta p {
+    margin-top: 10px;
+}
+
+
+.sag {
+    width: 38%;
+    background-color: rgb(98, 179, 170);
+    font-size: 13px;
+}
+
+.sag a {
+    margin-left: 10px;
+}
+
+.sag input::placeholder {
+    color: black;
+}
+
+.last {
+    display: block;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+}
